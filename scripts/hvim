@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -e
 
-printf '%b\n' "$(cat ~/src/config/vim/README.md)"
+printf '%b\n' "$(cat ~/src/github/config/vim/README.md)"
 
