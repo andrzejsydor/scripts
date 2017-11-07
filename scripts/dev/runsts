@@ -1,6 +1,4 @@
 #!/bin/bash
 
-#nohup ~/dev/app/idea/idea-IU-172.3968.1/bin/idea.sh $1 > /dev/null 2>&1&
-nohup ~/dev/app/sts/sts-3.9.1.RELEASE/STS > /dev/null 
-
+nohup ~/dev/app/sts/sts-3.9.1.RELEASE/STS $1 > /dev/null 2>&1&
 
