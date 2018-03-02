@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
-printf '%b\n' "$(cat ~/src/github/config/vim/README.md)"
+if [ -z "$1" ]; then
+	printf '%b\n' "$(cat ~/src/github/config/vim/README.md)"
+else
+	printf '%b\n' "$(cat ~/src/github/config/vim/README.md|grep -i -A 2 -B 2 --color=always $1)"
+fi
 
